@@ -73,9 +73,11 @@
 
 .text-block {
   display: block;
+  margin-bottom: 21px;
   border-bottom: 1px none #000;
   color: #000;
   font-weight: 700;
+  text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -172,6 +174,14 @@
   text-transform: uppercase;
 }
 
+.link-5 {
+  color: #000;
+}
+
+.container-3 {
+  margin-top: 50px;
+}
+
 @media (max-width: 767px) {
   .image {
     display: block;
@@ -240,5 +250,11 @@
   }
   .div-block-6 {
     overflow: hidden;
+  }
+  .image-7 {
+    margin-bottom: 10px;
+  }
+  .image-8 {
+    margin-bottom: 10px;
   }
 }
